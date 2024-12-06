@@ -1,0 +1,181 @@
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+body {
+    display: grid;
+    background-color: bisque;
+    min-width: 1280px;
+    max-width: 720px;
+    margin: 0 auto;
+   
+
+    
+}
+#title {
+    display: center;
+    width: auto;
+    height: auto;
+    font-family: "Lucida Console";
+    margin: 5 auto;
+    border: 2px solid #000000;
+    background-color: DarkOliveGreen;
+    
+
+}
+h2 {
+    font-family: "Lucida Console";
+    display:inline;
+    margin:25px;
+    
+}
+h1, h2 {
+    font-family: "Lucida Console";
+    text-align: center;
+    font-size:25px;
+    
+}
+
+p {
+    font-family: "Lucida Console";
+    text-align: center;
+    font-size:21px;
+}
+
+#centersection {
+    border: 3px solid black;
+    border-radius: 2px;
+    margin: 25px;
+    width: auto;
+    height: 250px;
+    padding: 30px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("heroimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: flex;
+}
+
+#contact {
+    font-family: "Lucida Console";
+    border: 2px solid #000000;
+    background-color: DarkOliveGreen;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+
+#content {
+    font-family: "Lucida Console";
+    border: 2px solid #000000;
+    background-color:DarkOliveGreen;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    
+}
+
+#skills {
+    font-family: "Lucida Console";
+    border: 2px solid #000000;
+    background-color: DarkOliveGreen;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+
+#AboutMe {
+    font-family: "Lucida Console";
+    border: 2px solid #000000;
+    background-color: DarkOliveGreen    ;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+}
+
+#bottom {
+    font-family: "Times New Roman";
+}
+
+a:link {
+    color: darkseagreen;
+  }
+  
+  
+  a:visited {
+    color: darkslateblue;
+  }
+  
+  
+  a:hover {
+    color: darkslategray;
+  }
+  
+  
+  a:active {
+    color: darkslategray;
+  }
+
+.button {
+    background-color: darkolivegreen;
+    border: none;
+    font-family: "Lucida Console";
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+  }
+.logo {
+    height:150px;
+    width:250px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #2d3647;
+    color: white;
+    height: auto;
+  }
+  
+  .fa-github {
+    background: #2d3647;
+    color: white;
+    height: auto;
+  }
